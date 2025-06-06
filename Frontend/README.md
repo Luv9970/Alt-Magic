@@ -1,12 +1,29 @@
-# React + Vite
+# 🖼️ Alt-Magic Dashboard — Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend dashboard** of the **Alt-Magic App**, a single-page Shopify-integrated tool that helps merchants identify and fix missing alt text across product, blog, and page images.
 
-Currently, two official plugins are available:
+It fetches image data from a backend (Express API) and displays:
+- 📸 Total number of images
+- ⚠️ Number of images missing alt text
+- 🛠 Individual image entries with a “Generate Alt” button
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components + Hooks)
+- **Axios** (for API calls)
+- **Tailwind CSS** (utility-first styling)
+- **Backend**: Express + Firebase (accessed via HTTP API)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Luv9970/Alt-Magic/frontend.git
+cd Alt-magic-frontend
+npm install
+npm run dev
